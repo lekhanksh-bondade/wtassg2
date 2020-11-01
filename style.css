@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+.app {
+  background: url(./media/bg001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.overlay{
+  background-color: rgba(0,0,0,0.8);
+  height: 100vh;
+}
+
+.inherit{
+  margin-top:0% !important;
+  background:transparent !important;
+  text-align:center !important;
+  border:none !important;
+}
+
+.countdown {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.intro{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.counter {
+  border: 2px solid;
+  text-align: center;
+  border-radius: 15px;
+  filter: drop-shadow(2px 2px 20px #3880ff);
+}
+
+.fontSize{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom:0px;
+}
+
+.two{
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+.dot{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.zero{
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #000;
+  color: #fff;
+}
+
+.marquee{
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  background:transparent;
+  padding: 2px;
+}
+
+.interested{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-right: 4px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #0f3f62;
+  color: #fff;
+}

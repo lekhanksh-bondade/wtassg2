@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link href="style2.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="script1.js"></script>
+</head>
+<body>
+
+	<div class="container">
+
+		<header>
+			<h2>Register</h2>
+		</header>
+		<form id="myForm" action="registration.html" method="post">
+			<div class="input">
+
+				<label>First name : </label>
+				<input id="fname" type="text" name="fname" required><br>
+			</div>
+
+			<div class="input">
+				<label>Last name : </label>
+				<input id="lname" type="text" name="lname" required>
+
+			</div>
+
+			<div class="input">
+
+				<label>Username : </label>				<input id="username" type="text" name="username" required>
+
+			</div>
+
+			<div class="input">
+
+				<label>Email :</label>
+				<input id="ema" type="email" name="ema" required>
+
+			</div>
+
+			<div class="input">
+
+				<label>Age : </label>
+				<input id="age" type="number" name="age" required>
+
+			</div>
+
+			<div class="input">
+
+				<label>Phone No : </label>
+				<input id="phn" type="number" name="phn" required>
+
+			</div>
+
+			<div class="input">
+				<button type="submit" class="btn" onclick="addRow();"> Submit </button>
+			</div>
+
+			<p>Already a user? <a href="login.html"><strong>Log In</strong></a></p>
+
+
+		</form>
+		<a href="index.html"><button class="stn">Home</button></a>
+
+	</div>
+	<table border="1">
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Username</th>
+				<th>Email</th>
+				<th>Age</th>
+				<th>Contact</th>
+			</tr>
+
+			<tr>
+				<td>Lekhanksh</td>
+				<td>Bondade</td>
+				<td>luke</td>
+				<td>ldbondade@mitaoe.ac.in</td>
+				<td>20</td>
+				<td>8208690221</td>
+			</tr>
+	</table>
+
+
+</body>
+</html>
